@@ -6,10 +6,41 @@
 /* Feel free to add as many of these imports as you need */
 
 body {
-  color: var(--color-primary);
+  color: gray;
   background-color: var(--color-secondary);
 }
- 
+
+.action {
+  color: yellowgreen;
+}
+
+.right {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  left: 1300px;
+  transform: translateY(-50%);
+  max-width: 100%;
+  height: auto;
+}
+
+.right img {
+  height: 350px;
+}
+
+section {
+  color: white;
+  text-align: center;
+  position: relative;
+  width: 500px;
+  left: 200px;
+  top: 30px;
+}
+
+section h1 {
+  font-size: 30px;
+}
+
 .centered {
   display: flex;
   justify-content: center;
@@ -79,4 +110,42 @@ nav ul li a:hover {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+footer .explore,
+footer .connect,
+footer .support {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 200px;
+  text-align: left;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  margin-bottom: 5px;
+}
+
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;;
 }
