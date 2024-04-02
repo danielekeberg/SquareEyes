@@ -6,68 +6,56 @@
 /* Feel free to add as many of these imports as you need */
 
 body {
-  color: gray;
+  color: #808080;
   background-color: var(--color-secondary);
-}
-
-.action {
-  color: yellowgreen;
 }
 
 .right {
   position: absolute;
   top: 50%;
   right: 0;
-  left: 1300px;
   transform: translateY(-50%);
-  max-width: 100%;
-  height: auto;
 }
 
 .right img {
+  max-width: 100%;
+  height: auto;
   height: 350px;
+  margin-right: 350px;
 }
 
 section {
   color: white;
-  text-align: center;
-  position: relative;
+  text-align: left;
   width: 500px;
-  left: 200px;
-  top: 30px;
+  margin-top: 70px;
+  margin-left: 350px;
 }
 
 section h1 {
   font-size: 30px;
 }
 
-.centered {
+header {
+  background-color: #252525;
+  color: #fff;
+  padding: 20px 0;
+}
+
+header .container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  text-align: center;
 }
 
 header .logo {
   height: 150px;
+  margin-left: 40px;
 }
 
-.container {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.search-nav {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-
-.search-bar {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
+nav {
+  margin-top: 110px;
+  margin-bottom: -30px;
 }
 
 nav ul {
@@ -96,6 +84,16 @@ nav ul li a:hover {
   background-color: #555;
 }
 
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  position: absolute;
+  top: 12%;
+  right: 25px;
+  transform: translateY(-50%);
+}
+
 .search-bar input[type="text"] {
   padding: 8px;
   border: 1px solid #ccc;
@@ -113,23 +111,26 @@ nav ul li a:hover {
 }
 
 footer {
-  background-color: #333;
+  background-color: #252525;
   color: #fff;
   padding: 20px 0;
+  text-align: center;
   position: fixed;
   bottom: 0;
-  left: 0;
   width: 100%;
-  text-align: center;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
 }
 
 footer .explore,
 footer .connect,
 footer .support {
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 200px;
   text-align: left;
+  margin-right: 250px;
+  margin-left: 250px;
 }
 
 footer ul {
@@ -147,5 +148,5 @@ footer ul li a {
 }
 
 footer ul li a:hover {
-  text-decoration: underline;;
+  text-decoration: underline;
 }
