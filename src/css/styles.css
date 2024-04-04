@@ -24,6 +24,14 @@ body {
   margin-right: 350px;
 }
 
+h1 !IMPORTANT {
+  color: white;
+  text-align: left;
+  width: 500px;
+  margin-top: 70px;
+  margin-left: 350px;
+}
+
 section {
   color: white;
   text-align: left;
@@ -149,4 +157,38 @@ footer ul li a {
 
 footer ul li a:hover {
   text-decoration: underline;
+}
+
+main {
+  padding: 20px 0;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.product-grid a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+}
+
+.product-grid img {
+  padding: 10px;
+  width: auto;
+  height: 250px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-grid span {
+  display: block;
+  margin-top: 10px;
+}
+
+span {
+  color: white;
 }
