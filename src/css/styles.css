@@ -18,6 +18,7 @@ body {
 }
 
 .right img {
+  position: sticky;
   max-width: 100%;
   height: auto;
   height: 350px;
@@ -165,7 +166,7 @@ main {
 
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 20px;
 }
 
@@ -191,4 +192,134 @@ main {
 
 span {
   color: white;
+}
+
+.category-action {
+  width: 100px;
+  height: auto;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+}
+
+.product img {
+  max-width: 250px;
+  margin: 20px 50px 0 250px;
+}
+
+.product .product-info {
+  width: 250px;
+  color: white;
+}
+
+.checkout-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  padding-top: 25px;
+}
+
+.cart {
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.cart h2 {
+  text-align: center;
+}
+
+.cart-items {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.cart-item img {
+  max-width: 100px;
+  margin-right: 10px;
+}
+
+.item-details {
+  flex-grow: 1;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.price {
+  margin-top: 90px;
+}
+
+.quantity input {
+  width: 40px;
+  padding: 5px;
+}
+
+.total {
+  margin-left: 10px;
+}
+
+.cart-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.checkout-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.checkout-btn:hover {
+  background-color: #0056b3;
+}
+
+.remove-btn {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 110px;
+}
+
+.remove-btn:hover {
+  background-color: #c82333;
+}
+
+.addcart-btn {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 50px;
+}
+
+.addcart-btn:hover {
+  background-color: #c82333;
 }
