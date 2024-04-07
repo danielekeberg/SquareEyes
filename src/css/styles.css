@@ -25,14 +25,6 @@ body {
   margin-right: 350px;
 }
 
-h1 !IMPORTANT {
-  color: white;
-  text-align: left;
-  width: 500px;
-  margin-top: 70px;
-  margin-left: 350px;
-}
-
 section {
   color: white;
   text-align: left;
@@ -180,7 +172,7 @@ main {
 .product-grid img {
   padding: 10px;
   width: auto;
-  height: 250px;
+  height: 300px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -218,16 +210,11 @@ span {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  height: 100vh;
-  padding-top: 25px;
+  margin-top: -15px;
 }
 
 .cart {
   max-width: 600px;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   color: white;
 }
 
@@ -263,15 +250,6 @@ span {
   margin-top: 90px;
 }
 
-.quantity input {
-  width: 40px;
-  padding: 5px;
-}
-
-.total {
-  margin-left: 10px;
-}
-
 .cart-total {
   display: flex;
   justify-content: space-between;
@@ -282,7 +260,7 @@ span {
 .checkout-btn {
   width: 100%;
   padding: 10px;
-  background-color: #007bff;
+  background-color: #757575;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -291,11 +269,11 @@ span {
 }
 
 .checkout-btn:hover {
-  background-color: #0056b3;
+  background-color: #5a5a5a;
 }
 
 .remove-btn {
-  background-color: #dc3545;
+  background-color: #757575;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -306,20 +284,74 @@ span {
 }
 
 .remove-btn:hover {
-  background-color: #c82333;
+  background-color: #5a5a5a;
 }
 
 .addcart-btn {
-  background-color: #dc3545;
+  background-color: #757575;
   color: #fff;
   border: none;
   border-radius: 5px;
-  padding: 5px 10px;
+  padding: 10px 20px;
   cursor: pointer;
   transition: background-color 0.3s;
   margin-top: 50px;
 }
 
 .addcart-btn:hover {
-  background-color: #c82333;
+  background-color: #5a5a5a;
+}
+
+.checkout {
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 75px;
+}
+
+.success-title {
+  color: #fff;
+}
+
+.success-btn {
+  background-color: #757575;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 50px;
+}
+
+.success-btn:hover {
+  background-color: #5a5a5a;
+}
+
+.about-us {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.about-section {
+  margin-bottom: 40px;
+}
+
+.about-section h2 {
+  color: #007bff;
+}
+
+.contact-details {
+  line-height: 0.2;
+  font-size: 20px;
+}
+
+.email,
+.phone {
+  font-weight: bold;
 }
