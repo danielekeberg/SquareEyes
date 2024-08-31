@@ -11,7 +11,7 @@
       "discountedPrice": 9.99,
       "onSale": false,
       "image": {
-        "url": "/assets/images/square_eyes_cover1.jpeg",
+        "url": "https://i.ibb.co/MND91bZ/Square-Eyes-Cover1.jpg",
         "alt": "A movie poster for the film Hobbs & Shaw"
       },
       "tags": ["gamehub", "game"],
@@ -28,7 +28,7 @@
       "discountedPrice": 9.99,
       "onSale": false,
       "image": {
-        "url": "/assets/images/square_eyes_cover2.jpeg",
+        "url": "https://i.ibb.co/M1DvbPp/Square-Eyes-Cover2.jpg",
         "alt": "A movie poster for the film Godzilla: King of the Monsters"
       },
       "tags": ["gamehub", "game"],
@@ -45,7 +45,7 @@
       "discountedPrice": 9.99,
       "onSale": false,
       "image": {
-        "url": "/assets/images/square_eyes_cover3.jpeg",
+        "url": "https://i.ibb.co/C5t8JJx/Square-Eyes-Cover3.jpg",
         "alt": "A movie poster for the film Once Upon a Time in Hollywood"
       },
       "tags": ["gamehub", "game"],
@@ -62,7 +62,7 @@
       "discountedPrice": 9.99,
       "onSale": false,
       "image": {
-        "url": "/assets/images/square_eyes_cover4.jpeg",
+        "url": "https://i.ibb.co/ScLWXsR/Square-Eyes-Cover4.jpg",
         "alt": "A movie poster for the film Scream"
       },
       "tags": ["gamehub", "game"],
@@ -79,7 +79,7 @@
       "discountedPrice": 9.99,
       "onSale": false,
       "image": {
-        "url": "/SquareEyes/assets/images/square_eyes_cover5.jpeg",
+        "url": "https://i.ibb.co/k2CyHG5/Square-Eyes-Cover5.jpg",
         "alt": "A movie poster for the film Sweetheart"
       },
       "tags": ["gamehub", "game"],
@@ -96,7 +96,7 @@
       "discountedPrice": 9.99,
       "onSale": false,
       "image": {
-        "url": "../assets/images/square_eyes_cover6.jpeg",
+        "url": "https://i.ibb.co/9NqLsd2/Square-Eyes-Cover6.jpg",
         "alt": "A movie poster for the film The Addams Family"
       },
       "tags": ["gamehub", "game"],
@@ -113,7 +113,7 @@
       "discountedPrice": 9.99,
       "onSale": false,
       "image": {
-        "url": "https://i.ibb.co/y4KzNvq/6c239b09e0ab6d50f435626e45267e3a.jpg",
+        "url": "https://i.ibb.co/K6m7HVz/Square-Eyes-Cover7.jpg",
         "alt": "A movie poster for the film The Batman"
       },
       "tags": ["gamehub", "game"],
@@ -130,7 +130,7 @@
       "discountedPrice": 4.99,
       "onSale": false,
       "image": {
-        "url": "/assets/images/square_eyes_cover8.jpeg",
+        "url": "https://i.ibb.co/d7h0nvp/Square-Eyes-Cover8.jpg",
         "alt": "A movie poster for the film Toy Story 4"
       },
       "tags": ["gamehub", "game"],
