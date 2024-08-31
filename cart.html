@@ -20,8 +20,7 @@
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="/recently_added.html">Recently Added</a></li>
-                    <li><a href="/categories.html">Categories</a></li>
+                    <li><a href="/recently_added.html">Movies</a></li>
                     <li><a href="/cart.html">Your Cart</a></li>
                 </ul>
             </nav>
@@ -30,33 +29,13 @@
 
     <main>
         <div class="checkout-container">
-            <div class="cart">
-                <h1>Your Cart</h1>
-                    <ul class="cart-items">
-                        <li class="cart-item">
-                            <a href="product.html"><img src="assets/images/Square_Eyes_Cover8.jpeg" alt="Toy Story 4"></a>
-                                <div class="item-details">
-                                    <h3>Toy Story 4</h3>
-                                    <p class="price">$26.50</p>
-                                </div>
-                            <button class="remove-btn">Remove</button>
-                        </li>
-                        <li class="cart-item">
-                            <a href="product.html"><img src="assets/images/Square_Eyes_Cover4.jpeg" alt="Scream"></a>
-                                <div class="item-details">
-                                    <h3>Scream</h3>
-                                    <p class="price">$11.97</p>
-                                </div>
-                            <button class="remove-btn">Remove</button>
-                        </li>
-                    </ul>
-                    <div class="cart-total">
-                        <h3>Total</h3>
-                        <p class="total-amount">$38.47</p>
-                    </div>
-                    <a href="checkout.html"><button class="checkout-btn">Proceed to Checkout</button></a>
-                </div>
+            <h1>Your Cart</h1>
+            <div id="cart-container"></div>
+            <div id="total-price-container">
+                <h2>Total Price: $<span id="total-price">0.00\</span></h2>
+                <button id="checkout-button" class="checkout-btn">Checkout</button>
             </div>
+            
         </div>
     </main>
 
@@ -90,6 +69,6 @@
             </div>
         </div>
     </footer>
+    <script src="cart.js"></script>
 </body>
-
 </html>

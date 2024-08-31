@@ -167,6 +167,10 @@ footer ul li a:hover {
   margin-left: 150px;
 }
 
+.container-movie select {
+  margin-left: 150px;
+}
+
 .product-grid {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
@@ -228,10 +232,10 @@ span {
 }
 
 .checkout-container {
+  color: #fff;
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  margin-top: -15px;
+  justify-content: space-between;
+  padding: 0 20px 0;
 }
 
 .cart {
@@ -244,36 +248,44 @@ span {
   text-align: center;
 }
 
-.cart-items {
-  list-style-type: none;
-  padding: 0;
-}
-
 .cart-item {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #ccc;
-  padding: 10px 0;
+  margin: 50px 50px;
+  padding: 10px;
+  border-bottom: 1px solid #fff;
+  width: 1000px;
 }
 
-.cart-item img {
-  max-width: 100px;
-  margin-right: 10px;
+.cart-item h3, p {
+  color: #fff;
 }
 
-.cart-total {
+.cart-item h3 {
+  width: 150px;
+}
+
+#total-price-container {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin-top: 20px;
+  padding: 20px;
+}
+
+.cart-item-image {
+  width: 100px;
+  height: auto;
+  margin: 5px 20px;
 }
 
 .checkout-btn {
-  width: 100%;
-  padding: 10px;
+  padding: 10px 20px;
+  margin-top: 350px;
   background-color: #757575;
   color: #fff;
+  width: 50;
+  height: 50px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -285,18 +297,17 @@ span {
 }
 
 .remove-btn {
-  background-color: #757575;
+  margin-left: auto;
+  padding: 5px 10px;
+  background-color: #dc3545;
   color: #fff;
   border: none;
   border-radius: 5px;
-  padding: 5px 10px;
   cursor: pointer;
-  transition: background-color 0.3s;
-  margin-top: 110px;
 }
 
 .remove-btn:hover {
-  background-color: #5a5a5a;
+  background-color: #c82333;
 }
 
 .addcart-btn {
@@ -406,21 +417,23 @@ header h1 {
 }
 
 .movie-details-container {
-  max-width: 800px;
+  max-width: 700px;
   margin: 0 auto;
   padding: 20px;
 }
 
-.movies-details {
+.movie-details {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #fff;
 }
 
-.movies-details img {
+.movie-details img {
   max-height: 350px;
   border-radius: 8px;
   margin-bottom: 20px;
+  display: flex;
 }
 
 .movie-details h1 {
