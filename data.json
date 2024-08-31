@@ -79,7 +79,7 @@
       "discountedPrice": 9.99,
       "onSale": false,
       "image": {
-        "url": "/assets/images/square_eyes_cover5.jpeg",
+        "url": "/SquareEyes/assets/images/square_eyes_cover5.jpeg",
         "alt": "A movie poster for the film Sweetheart"
       },
       "tags": ["gamehub", "game"],
@@ -96,7 +96,7 @@
       "discountedPrice": 9.99,
       "onSale": false,
       "image": {
-        "url": "/assets/images/square_eyes_cover6.jpeg",
+        "url": "../assets/images/square_eyes_cover6.jpeg",
         "alt": "A movie poster for the film The Addams Family"
       },
       "tags": ["gamehub", "game"],
@@ -113,7 +113,7 @@
       "discountedPrice": 9.99,
       "onSale": false,
       "image": {
-        "url": "/assets/images/square_eyes_cover7.jpeg",
+        "url": "https://i.ibb.co/y4KzNvq/6c239b09e0ab6d50f435626e45267e3a.jpg",
         "alt": "A movie poster for the film The Batman"
       },
       "tags": ["gamehub", "game"],
