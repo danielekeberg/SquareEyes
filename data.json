@@ -6,6 +6,7 @@
       "description": "Lawman Luke Hobbs (Dwayne 'The Rock' Johnson) and outcast Deckard Shaw (Jason Statham) form an unlikely alliance when a cyber-genetically enhanced villain threatens the future of humanity.",
       "genre": "Action",
       "released": "2019",
+      "rating": 6.5,
       "price": 14.99,
       "discountedPrice": 9.99,
       "onSale": false,
@@ -22,6 +23,7 @@
       "description": "The crypto-zoological agency Monarch faces off against a battery of god-sized monsters, including the mighty Godzilla, who collides with Mothra, Rodan, and his ultimate nemesis, the three-headed King Ghidorah.",
       "genre": "Action",
       "released": "2019",
+      "rating": 6,
       "price": 14.99,
       "discountedPrice": 9.99,
       "onSale": false,
@@ -33,11 +35,12 @@
       "favorite": true
     },
     {
-      "id": "4696b9e6-ec6e-4672-a08d-3e3212a215c8",
+      "id": "4696b9e6-ec6e-4672-a08d-3e3433215c8",
       "title": "Once Upon a Time in Hollywood",
       "description": "A faded TV star and his stuntman strive to achieve fame and success in Hollywood. The year is 1969, the golden age is coming to an end and the Manson sect is wreaking havoc in Los Angeles.",
       "genre": "Comedy",
       "released": "2019",
+      "rating": 7.6,
       "price": 13.99,
       "discountedPrice": 9.99,
       "onSale": false,
@@ -49,14 +52,15 @@
       "favorite": true
     },
     {
-      "id": "4696b9e6-ec6e-4672-a08d-3e3212a215c8",
+      "id": "4696b9e6-ec6e-4672-a08d-3f5212a215c8",
       "title": "Scream",
       "description": "Sidney has really had enough problems. Her mother was killed last year, her father is never home and her boyfriend only wants her in bed. The small town is ravaged by a serial killer who is clearly inspired by various horror films. No one is safe and everyone is a suspect.",
       "genre": "Horror",
       "released": "2022",
+      "rating": 6.3,
       "price": 14.99,
       "discountedPrice": 9.99,
-      "onSale": true,
+      "onSale": false,
       "image": {
         "url": "/assets/images/square_eyes_cover4.jpeg",
         "alt": "A movie poster for the film Scream"
@@ -65,11 +69,12 @@
       "favorite": true
     },
     {
-      "id": "4696b9e6-ec6e-4672-a08d-3e3212a215c8",
+      "id": "4696b9e6-ec6e-4762-a08d-3e3212a215c8",
       "title": "Sweetheart",
       "description": "A woman washes ashore a small uninhabited island after an accident. The situation turns from bad to worse when she realizes there is a mysterious creature hunting at night.",
       "genre": "Horror",
       "released": "2019",
+      "rating": 5.8,
       "price": 14.69,
       "discountedPrice": 9.99,
       "onSale": false,
@@ -81,11 +86,12 @@
       "favorite": true
     },
     {
-      "id": "4696b9e6-ec6e-4672-a08d-3e3212a215c8",
+      "id": "4696b9e6-fe6e-4672-a08d-3e3212a215c8",
       "title": "The Addams Family",
       "description": "The eccentrically macabre family moves to a bland suburb where Wednesday Addams' friendship with the daughter of a hostile and conformist local reality show host exacerbates conflict between the families.",
       "genre": "Comedy",
       "released": "2019",
+      "rating": 5.8,
       "price": 14.99,
       "discountedPrice": 9.99,
       "onSale": false,
@@ -97,11 +103,12 @@
       "favorite": true
     },
     {
-      "id": "4696b9e6-ec6e-4672-a08d-3e3212a215c8",
+      "id": "4696b9e6-ec6e-4672-b47d-3e3212a215c8",
       "title": "The Batman",
       "description": "When a sadistic serial killer begins murdering key political figures in Gotham, The Batman is forced to investigate the city's hidden corruption and question his family's involvement.",
       "genre": "Action",
       "released": "2022",
+      "rating": 7.8,
       "price": 13.99,
       "discountedPrice": 9.99,
       "onSale": false,
@@ -113,14 +120,15 @@
       "favorite": true
     },
     {
-      "id": "4696b9e6-ec6e-4672-a08d-3e3212a215c8",
+      "id": "4696b9e6-ec9k-4672-a08d-3e3212a215c8",
       "title": "Toy Story 4",
       "description": "When a new toy called Forky joins Woody and the gang, a road trip alongside old and new friends reveals how big the world can be for a toy.",
       "genre": "Comedy",
+      "rating": 7.7,
       "released": "2019",
       "price": 9.99,
       "discountedPrice": 4.99,
-      "onSale": true,
+      "onSale": false,
       "image": {
         "url": "/assets/images/square_eyes_cover8.jpeg",
         "alt": "A movie poster for the film Toy Story 4"
