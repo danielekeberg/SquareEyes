@@ -46,7 +46,7 @@ function removeFromCart(id) {
     cartItems = cartItems.filter(item => item !== id);
     localStorage.setItem('cart', JSON.stringify(cartItems));
 
-    fetch('data.json')
+    fetch('js/data.json')
         .then(response => response.json())
         .then(data => {
             displayCartItems(data.data);
@@ -63,7 +63,7 @@ function clearCartAndCheckout() {
     window.location.href = 'checkout.html';
 }
 
-fetch('data.json')
+fetch('js/data.json')
     .then(response => response.json())
     .then(data => {
         displayCartItems(data.data);

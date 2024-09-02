@@ -3,7 +3,7 @@ function getQueryParam(param) {
     return urlParams.get(param);
 }
 
-fetch('data.json')
+fetch('js/data.json')
     .then(response => response.json())
     .then(data => {
         const movieId = getQueryParam('id');

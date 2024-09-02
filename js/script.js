@@ -20,7 +20,7 @@ function displayMovies(genre) {
     });
 }
 
-fetch('data.json')
+fetch('js/data.json')
     .then(response => response.json())
     .then(data => {
         moviesData = data.data;
